@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hot" translatesAutoresizingMaskIntoConstraints="NO" id="DfT-Jw-GzW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hot" translatesAutoresizingMaskIntoConstraints="NO" id="DfT-Jw-GzW">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVY-R3-yu5">
                                 <rect key="frame" x="326" y="812" width="68" height="50"/>
@@ -55,10 +54,13 @@
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud.rain.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="giC-o7-BZC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.rain.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="giC-o7-BZC">
                                 <rect key="frame" x="87" y="68" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126.5" id="Hfo-57-RAn"/>
+                                    <constraint firstAttribute="width" constant="240" id="kVP-ba-PHd"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feels like 23℃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qq-xD-u7B">
                                 <rect key="frame" x="175" y="320" width="123" height="19"/>
@@ -70,6 +72,16 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="giC-o7-BZC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.141183" id="6zm-Ve-xVT"/>
+                            <constraint firstItem="giC-o7-BZC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.57971" id="Kkh-uz-DTo"/>
+                            <constraint firstItem="giC-o7-BZC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="TX8-MA-efk"/>
+                            <constraint firstItem="DfT-Jw-GzW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TrY-rf-6K7"/>
+                            <constraint firstItem="DfT-Jw-GzW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l2j-hY-qAA"/>
+                            <constraint firstItem="DfT-Jw-GzW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="opg-3l-ekY"/>
+                            <constraint firstAttribute="bottom" secondItem="DfT-Jw-GzW" secondAttribute="bottom" id="qlG-W5-Kew"/>
+                            <constraint firstItem="giC-o7-BZC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="zi4-8l-Rg1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
