@@ -19,27 +19,30 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hot" translatesAutoresizingMaskIntoConstraints="NO" id="DfT-Jw-GzW">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVY-R3-yu5">
-                                <rect key="frame" x="326" y="812" width="68" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
-                                    <backgroundConfiguration key="background" cornerRadius="50">
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="strokeColor" systemColor="tintColor"/>
-                                    </backgroundConfiguration>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
-                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="30"/>
-                                    </preferredSymbolConfiguration>
-                                </buttonConfiguration>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ufa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bq-xo-56z">
-                                <rect key="frame" x="175" y="805" width="65" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="86" translatesAutoresizingMaskIntoConstraints="NO" id="HNg-hc-IqD">
+                                <rect key="frame" x="175" y="805" width="218.5" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ufa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bq-xo-56z">
+                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="60"/>
+                                        <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVY-R3-yu5">
+                                        <rect key="frame" x="150.5" y="0.0" width="68" height="60"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
+                                            <backgroundConfiguration key="background" cornerRadius="50">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="strokeColor" systemColor="tintColor"/>
+                                            </backgroundConfiguration>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
+                                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="30"/>
+                                            </preferredSymbolConfiguration>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CYo-nh-ZgY">
                                 <rect key="frame" x="113.5" y="228" width="187" height="85.5"/>
                                 <subviews>
@@ -77,14 +80,17 @@
                         <constraints>
                             <constraint firstItem="giC-o7-BZC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="6Ba-kw-6ec"/>
                             <constraint firstItem="9Qq-xD-u7B" firstAttribute="top" secondItem="CYo-nh-ZgY" secondAttribute="bottom" constant="6.5" id="7PE-dU-YTm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9Qq-xD-u7B" secondAttribute="trailing" symbolic="YES" id="9bo-1m-mc4"/>
                             <constraint firstItem="CYo-nh-ZgY" firstAttribute="width" secondItem="giC-o7-BZC" secondAttribute="width" multiplier="0.779167" id="Cd3-wD-4bC"/>
                             <constraint firstItem="CYo-nh-ZgY" firstAttribute="height" secondItem="giC-o7-BZC" secondAttribute="height" multiplier="0.675889" id="DYQ-51-0sw"/>
                             <constraint firstItem="CYo-nh-ZgY" firstAttribute="centerX" secondItem="giC-o7-BZC" secondAttribute="centerX" id="ICm-rF-v7i"/>
                             <constraint firstItem="DfT-Jw-GzW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="K55-iS-A83"/>
+                            <constraint firstItem="HNg-hc-IqD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="77.25" id="PpS-9j-N2S"/>
                             <constraint firstItem="CYo-nh-ZgY" firstAttribute="top" secondItem="giC-o7-BZC" secondAttribute="bottom" constant="33.5" id="T5i-7t-HzV"/>
                             <constraint firstItem="DfT-Jw-GzW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Zwy-83-cMT"/>
                             <constraint firstItem="DfT-Jw-GzW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kFA-OH-kG6"/>
                             <constraint firstAttribute="bottom" secondItem="DfT-Jw-GzW" secondAttribute="bottom" id="kgL-sw-OP1"/>
+                            <constraint firstItem="HNg-hc-IqD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="3" id="ky6-BS-4qS"/>
                             <constraint firstItem="9Qq-xD-u7B" firstAttribute="leading" secondItem="CYo-nh-ZgY" secondAttribute="trailing" constant="-125.5" id="lKw-iQ-ece"/>
                             <constraint firstItem="giC-o7-BZC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vbL-zU-pa2"/>
                         </constraints>
