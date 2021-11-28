@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A27B8C8275374CE00E1FCA0 /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27B8C7275374CE00E1FCA0 /* ViewController+alertController.swift */; };
 		8AD8E9A22752250A00B83A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8E9A12752250A00B83A48 /* AppDelegate.swift */; };
 		8AD8E9A42752250A00B83A48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8E9A32752250A00B83A48 /* SceneDelegate.swift */; };
 		8AD8E9A62752250A00B83A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8E9A52752250A00B83A48 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A27B8C7275374CE00E1FCA0 /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
 		8AD8E99E2752250A00B83A48 /* Sunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD8E9A12752250A00B83A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AD8E9A32752250A00B83A48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8AD8E9A12752250A00B83A48 /* AppDelegate.swift */,
 				8AD8E9A32752250A00B83A48 /* SceneDelegate.swift */,
 				8AD8E9A52752250A00B83A48 /* ViewController.swift */,
+				8A27B8C7275374CE00E1FCA0 /* ViewController+alertController.swift */,
 				8AD8E9A72752250A00B83A48 /* Main.storyboard */,
 				8AD8E9AA2752250B00B83A48 /* Assets.xcassets */,
 				8AD8E9AC2752250B00B83A48 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AD8E9A62752250A00B83A48 /* ViewController.swift in Sources */,
+				8A27B8C8275374CE00E1FCA0 /* ViewController+alertController.swift in Sources */,
 				8AD8E9A22752250A00B83A48 /* AppDelegate.swift in Sources */,
 				8AD8E9A42752250A00B83A48 /* SceneDelegate.swift in Sources */,
 			);
