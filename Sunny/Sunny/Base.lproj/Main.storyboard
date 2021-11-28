@@ -40,6 +40,9 @@
                                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="30"/>
                                             </preferredSymbolConfiguration>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2vP-jx-feA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -95,6 +98,12 @@
                             <constraint firstItem="giC-o7-BZC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vbL-zU-pa2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="1Bq-xo-56z" id="HZw-Lm-gFS"/>
+                        <outlet property="feelsLikeTemperatureLabel" destination="9Qq-xD-u7B" id="fG5-gi-7kK"/>
+                        <outlet property="temperatureLabel" destination="U2a-4l-9oX" id="FnK-kj-yVV"/>
+                        <outlet property="weatherIconImageView" destination="giC-o7-BZC" id="oiT-Yn-Nby"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
