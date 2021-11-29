@@ -111,7 +111,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Hot" width="103.5" height="184"/>
+        <image name="Hot" width="414" height="736"/>
         <image name="cloud.rain.fill" catalog="system" width="125" height="128"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">
