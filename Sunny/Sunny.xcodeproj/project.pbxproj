@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A240DAE2757DD6F001E16A0 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A240DAD2757DD6F001E16A0 /* CurrentWeatherData.swift */; };
 		8A27B8C8275374CE00E1FCA0 /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27B8C7275374CE00E1FCA0 /* ViewController+alertController.swift */; };
 		8A27B8CA275536B200E1FCA0 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27B8C9275536B200E1FCA0 /* NetworkWeatherManager.swift */; };
 		8A27B8CC2755409B00E1FCA0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27B8CB2755409B00E1FCA0 /* Constants.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A240DAD2757DD6F001E16A0 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
 		8A27B8C7275374CE00E1FCA0 /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
 		8A27B8C9275536B200E1FCA0 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
 		8A27B8CB2755409B00E1FCA0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				8AD8E9A32752250A00B83A48 /* SceneDelegate.swift */,
 				8AD8E9A52752250A00B83A48 /* ViewController.swift */,
 				8A27B8C9275536B200E1FCA0 /* NetworkWeatherManager.swift */,
+				8A240DAD2757DD6F001E16A0 /* CurrentWeatherData.swift */,
 				8A27B8CB2755409B00E1FCA0 /* Constants.swift */,
 				8A27B8C7275374CE00E1FCA0 /* ViewController+alertController.swift */,
 				8AD8E9A72752250A00B83A48 /* Main.storyboard */,
@@ -152,6 +155,7 @@
 				8A27B8CA275536B200E1FCA0 /* NetworkWeatherManager.swift in Sources */,
 				8AD8E9A22752250A00B83A48 /* AppDelegate.swift in Sources */,
 				8AD8E9A42752250A00B83A48 /* SceneDelegate.swift in Sources */,
+				8A240DAE2757DD6F001E16A0 /* CurrentWeatherData.swift in Sources */,
 				8A27B8CC2755409B00E1FCA0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
