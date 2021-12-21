@@ -14,12 +14,12 @@ struct CurrentWeatherData: Codable {
 }
 
 struct Main: Codable {
-    let  temp: Double
-    let feelsLlike: Double
+    let temp: Double
+    let feelsLike: Double
     
     enum CodingKeys: String, CodingKey {
         case temp
-        case feelsLlike = "feels_like"
+        case feelsLike = "feels_like"
     }
 }
 
