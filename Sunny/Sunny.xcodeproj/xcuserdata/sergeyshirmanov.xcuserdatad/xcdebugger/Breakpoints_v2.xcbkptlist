@@ -3,22 +3,4 @@
    uuid = "1C53CEFA-1850-4382-9D6B-AA89BD32F4D2"
    type = "1"
    version = "2.0">
-   <Breakpoints>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "52D66B6C-602C-42D7-8CB0-7A09E624E106"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Sunny/NetworkWeatherManager.swift"
-            startingColumnNumber = "40"
-            endingColumnNumber = "54"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "fetchCurrentWeather(forCity:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-   </Breakpoints>
 </Bucket>

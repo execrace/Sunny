@@ -19,7 +19,7 @@ extension ViewController {
             let textField = ac.textFields?.first
             guard let cityName = textField?.text else { return }
             if cityName != "" {
-                self.networkWeatherManager.fetchCurrentWeather(forCity: cityName)
+//                self.networkWeatherManager.fetchCurrentWeather(forRequestType: )
                 let city = cityName.split(separator: " ").joined(separator: "%20")
                 complitionHandler(city)
             }
